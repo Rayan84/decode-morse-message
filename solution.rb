@@ -11,12 +11,16 @@ end
 
 puts decode_word('-- -.--')
 
-def decode_msg(msg)
-  split_msg = msg.split.map { |split_msg| decode_msg(msg) }
-  split_msg.join(' ')
+def decode(msg)
+  new_msg = []
+
+  split_msg = msg.split('   ')
+
+  split_msg.each do |word|
+    new_msg.push(decode_word(word))
+  end
+
+  new_msg.join(' ')
 end
 
 puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-. / .-. ..- -... .. . ...')
-  
-
-
