@@ -5,16 +5,14 @@ def decode_char(char)
 end
 
 def decode_word(word)
-  chars = word.split(' ').map { |char| decode_char(char) }
+  chars = word.split.map { |char| decode_char(char) }
   chars.join
 end
 
 def decode(msg)
   new_msg = []
   split_msg = msg.split('   ')
-  #puts split_msg
   split_msg.each do |word|
-    #puts word
     new_msg.push(decode_word(word))
   end
   new_msg.join(' ')
