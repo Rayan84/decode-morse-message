@@ -1,26 +1,33 @@
-# decode-morse-message
+# Decode Morse Message
 
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
-
+> This project is a Ruby based application, it accepts Morse coded strings as an argument and outputs the translation in English alphabets.
 
 ## Getting Started
+On the terminal run the following commands:
 
+- `git clone https://github.com/Rayan84/decode-morse-message.git`
+- `cd decode-morse-message`
+- `bundle install`
 
+## Running the application
+On the terminal run the following commands:
+
+- `ruby` path/to/solution.rb 
 
 ## Authors
 
-👤 **Author1**
+👤 **Alexander Odufuye**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- GitHub: [@alexander16108](https://github.com/alexander16108)
+- Twitter: [@alexandermayowa](https://twitter.com/alexandermayowa)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Rayan Rassam**
+
+- GitHub: [@Rayan84](https://github.com/Rayan84)
+- Twitter: [@Rayan65096267](https://twitter.com/Rayan65096267)
+- LinkedIn: [Rayan Rassam](https://www.linkedin.com/in/rayan-rassam/)
 
 ## 🤝 Contributing
 
@@ -34,9 +41,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
